@@ -1,0 +1,187 @@
+textarea{
+    resize: none;
+}
+
+.dropdown-toggle:hover{
+    cursor: hand;
+    cursor: pointer;
+}
+
+/* data-table */
+.dataTables_paginate {
+    float: none !important;
+    text-align: center !important;
+    margin-top: 40px;
+}
+
+.paging_full_numbers .paginate_button{
+    border: none !important;
+    padding: 5px 15px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.paging_full_numbers .paginate_button:hover{
+    background-color: #DDD !important;
+}
+
+.paging_full_numbers .paginate_button_disabled:hover{
+    cursor: not-allowed;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.paging_full_numbers span a.paginate_button, a.paginate_active{
+    padding: 10px 22px !important;
+    border-radius: 3px !important;
+    margin-left: 4px !important;
+    color: #999 !important;
+    font-size: 19px !important;
+    border:none !important;
+
+    background-color: #EEE !important;
+}
+
+.paging_full_numbers span a:hover{
+    background-color: #DDD !important;
+}
+
+
+.paging_full_numbers span a.paginate_active {
+    color: #FFF !important;
+    cursor: default;
+    background-color: rgb(143, 43, 135) !important;;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+/* //ends data-table */
+
+
+.form-group.star label:after {
+    content: '*';
+    color: #F00;
+}
+
+.report-inner-table{
+    background-color: rgb(176, 177, 179) !important;
+    color: #FFF;
+}
+.report-inner-table tbody td{
+    background-color: rgb(176, 177, 179) !important;
+}
+
+.alert-success{
+    /*  background-color: rgb(143, 43, 135) !important;*/
+    border-color: rgb(176, 177, 179) !important;
+}
+
+form .btn-primary{
+    background-color: rgb(112, 26, 105) !important;
+    border-color: rgb(205, 173, 209) !important;
+}
+
+.navbar-inverse {
+    background-color: rgb(143, 43, 135) !important;
+    border-color: rgb(205, 173, 209) !important;
+}
+
+.navbar-inverse .dropdown-menu {
+    color: #FFF;
+    background-color: rgb(143, 43, 135) !important;;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: rgb(176, 177, 179) !important;
+}
+
+.navbar-inverse .dropdown-menu > li > a:hover, .navbar-inverse .dropdown-menu > .active > a, .navbar-inverse .dropdown-menu > .active > a:hover {
+    color: #FFF;
+    background-color: rgb(176, 177, 179) !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #FFF !important;
+    background-color: rgb(176, 177, 179) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #FFF;
+    background-color: rgb(176, 177, 179) !important;
+    /*    border-color: rgb(194, 0, 63) !important;*/
+    /*    border-color: #004B63;*/
+}
+
+#footer a {
+    color: rgb(143, 43, 135) !important;
+    text-decoration: none;
+}
+
+#footer a:hover, a:focus {
+    color: #6600ff !important;
+    text-decoration: underline;
+}
+
+/* the youtube loader :) */
+/* Effect 1: YouTube loading */
+.la-anim-1 {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 3px;
+    background: rgb(176, 177, 179);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    pointer-events: none;
+}
+
+.la-anim-1::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    background: rgb(176, 177, 179);
+    box-shadow: 0 0 15px rgb(176, 177, 179), 0 0 5px rgb(176, 177, 179);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, box-shadow 2s 4s;
+    transition: opacity 0.2s, box-shadow 2s 4s;
+    -webkit-transform: rotate(2deg) translateY(-2px);
+    transform: rotate(2deg) translateY(-2px);
+}
+
+.la-anim-1.la-animate {
+    z-index: 3000;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 2s ease-in, opacity 0.5s 2s;
+    transition: transform 2s ease-in, opacity 0.5s 2s;
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.la-anim-1.la-animate::after {
+    box-shadow: 0 0 3px rgb(176, 177, 179), 0 0 1px rgb(176, 177, 179);
+    opacity: 1;
+}
+
+/*
+    colors:
+    rgb(176, 177, 179) gray
+    rgb(194, 0, 63)     red
+*/
+
+#datatable-job_paginate a.paginate_active, #datatable-user_paginate a.paginate_active {
+    background-color: rgb(143, 43, 135) !important;
+    border-color: rgb(205, 173, 209) !important;
+}
+
+.ui-timepicker-table td a {
+    display: block;
+    padding: 0.2em 0.3em 0.2em 0.5em;
+    width: 2.2em;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+}
